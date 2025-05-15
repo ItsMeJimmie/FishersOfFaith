@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishers Of Faith</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resizeStyles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Raleway:ital,wght@0,600;1,600&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        
+    <header>
+        <div class="header-content">
+
+            <h1 id="titleWebsite">Fishers of Faith</h1>
+
+            <nav class="desktop-nav">
+                <a href="#titleWebsite"><button>Home</button></a>
+                <a href="#aboutUs"><button>About Us</button></a>
+                <a href="#events2"><button>Events</button></a>
+                <a href="#affiliations2"><button>Affiliations</button></a>
+                <a href="#history"><button>History</button></a>
+                <a href="#contactUsTitle"><button>Contact</button></a>
+            </nav>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+                <a href="#titleWebsite"><button>Home</button></a>
+                <a href="#aboutUs"><button>About Us</button></a>
+                <a href="#events2"><button>Events</button></a>
+                <a href="#affiliations2"><button>Affiliations</button></a>
+                <a href="#history"><button>History</button></a>
+                <a href="#contactUsTitle"><button>Contact</button></a>
+        </div>
+
+    </header>
+
+    <div class="headerLine">
+
+    </div>
+
+
+    <main>
+
+        <div class="aboutUsContainer">
+
+            <div class="aboutUsText">
+                <h1 id="aboutUs">About Us</h1>
+                <p>Lorem, ipsum dolor 
+                    sit amet consectetur 
+                    adipisicing elit. Commodi 
+                    eius officia modi eum atque 
+                    saepe hic minus, tenetur id! 
+                    Architecto fuga ipsam provident 
+                    a odit excepturi ut nisi sunt 
+                    praesentium.</p>
+            </div>
+
+            <div class="aboutUsImage">
+                <img src="" alt="Group Photo">
+            </div>
+
+        </div>
+
+        <div class="events">
+            <h1 id="events2">Events</h1>
+
+            <div class="eventsContainer">
+                <div class="upcomingEvents">
+                    <h2>Upcoming Events</h2>
+                        <div class="eventGroup">
+                            <h4>Event Name: </h4>
+                            <h4>Location:</h4>
+                            <h4>Date:</h4>
+                            <h4>Description:</h4>
+                        </div>
+                 </div>
+
+                <div class="pastEvents">
+                    <h2>Past Events</h2>
+                        <div class="eventGroup">
+                            <h4>Event Name: </h4>
+                            <h4>Location:</h4>
+                            <h4>Date:</h4>
+                            <h4>Description:</h4>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="affiliations">
+                <h1 id="affiliations2">Affiliations</h1>
+                <div class="affiliationsButtons">
+                    <a href="https://www.stbernard-springfield.org/"><button class="Bernard">St. Bernards</button></a>
+                    <a href="https://www.stteresaspgfldoh.org/"><button class="Teresa">St. Teresa</button></a>
+                    <a href="https://josephraphael.org/home/welcome"><button class="restChurches">St. Charles</button></a>
+                    <a href="https://josephraphael.org/home/welcome"><button class="restChurches2">St. Joseph</button></a>
+                    <a href="https://josephraphael.org/home/welcome"><button class="restChurches3">St. Raphael</button></a>
+                </div>
+            </div>
+
+            <div class="history">
+                <h1 id="history">History</h1>
+                <div class="historyParagraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam animi, quibusdam necessitatibus dolore aliquid cupiditate dignissimos iste id voluptatem consequuntur nam autem reiciendis iusto maiores et nemo dolor! Ea!</p>
+                    <h2>Where We Started?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam animi, quibusdam necessitatibus dolore aliquid cupiditate dignissimos iste id voluptatem consequuntur nam autem reiciendis iusto maiores et nemo dolor! Ea!</p>
+                    <h2>Info On Exodus 90</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam animi, quibusdam necessitatibus dolore aliquid cupiditate dignissimos iste id voluptatem consequuntur nam autem reiciendis iusto maiores et nemo dolor! Ea!</p>
+                    <h2>Goals</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsam animi, quibusdam necessitatibus dolore aliquid cupiditate dignissimos iste id voluptatem consequuntur nam autem reiciendis iusto maiores et nemo dolor! Ea!</p>
+                </div>
+            </div>
+
+            <div class="contact">
+
+                    <h1 id="contactUsTitle">Contact Us</h1>
+
+                    <form action="https://formspree.io/f/mgvkazpe" method="POST" class="contact-form">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    
+                        <label for="message">Suggestion / Notes</label>
+                        <textarea name="message" id="message" rows="5" required></textarea>
+                    
+                        <button type="submit">Send</button>
+                    </form>
+            </div>
+
+    </main>
+
+    <footer>
+        <p>Fishers Of Faith © 2025</p>
+    </footer>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
