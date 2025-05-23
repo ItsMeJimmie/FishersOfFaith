@@ -18,6 +18,11 @@
   .aboutUsContainer {
     flex-direction: column;
   }
+
+  .eventsContainer {
+    flex-direction: column;
+    gap: 30px;
+  }
 } 
 
 @media(max-width: 1000px) {
